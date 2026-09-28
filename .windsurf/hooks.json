@@ -1,0 +1,32 @@
+{
+  "hooks": {
+    "pre_run_command": [
+      {
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py pre-tool --agent windsurf || exec python3 scripts/scope_guard.py pre-tool --agent windsurf",
+        "powershell": "python scripts/scope_guard.py pre-tool --agent windsurf",
+        "show_output": true
+      }
+    ],
+    "pre_write_code": [
+      {
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py pre-tool --agent windsurf || exec python3 scripts/scope_guard.py pre-tool --agent windsurf",
+        "powershell": "python scripts/scope_guard.py pre-tool --agent windsurf",
+        "show_output": true
+      }
+    ],
+    "pre_mcp_tool_use": [
+      {
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py pre-tool --agent windsurf || exec python3 scripts/scope_guard.py pre-tool --agent windsurf",
+        "powershell": "python scripts/scope_guard.py pre-tool --agent windsurf",
+        "show_output": true
+      }
+    ],
+    "pre_user_prompt": [
+      {
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py prompt --agent windsurf || exec python3 scripts/scope_guard.py prompt --agent windsurf",
+        "powershell": "python scripts/scope_guard.py prompt --agent windsurf",
+        "show_output": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py pre-tool --agent copilot || exec python3 scripts/scope_guard.py pre-tool --agent copilot",
+        "timeout": 15
+      }
+    ]
+  }
+}

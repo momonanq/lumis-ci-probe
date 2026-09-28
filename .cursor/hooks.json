@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "preToolUse": [
+      {
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py pre-tool --agent cursor || exec python3 scripts/scope_guard.py pre-tool --agent cursor"
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py pre-tool --agent cursor || exec python3 scripts/scope_guard.py pre-tool --agent cursor"
+      }
+    ],
+    "beforeMCPExecution": [
+      {
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py pre-tool --agent cursor || exec python3 scripts/scope_guard.py pre-tool --agent cursor"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py prompt --agent cursor || exec python3 scripts/scope_guard.py prompt --agent cursor"
+      }
+    ]
+  }
+}

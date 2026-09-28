@@ -1,0 +1,9 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "command": "command -v python >/dev/null 2>&1 && exec python scripts/scope_guard.py pre-tool --agent codex || exec python3 scripts/scope_guard.py pre-tool --agent codex"
+      }
+    ]
+  }
+}

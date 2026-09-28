@@ -1,0 +1,16 @@
+# --- LUMIS scope guard (generated; edit .lumis/scope_guard.json instead) ---
+# Probe: boundaries set by the founder
+
+## Startup ritual (before the first edit)
+List loaded MCP servers, rule files (.cursorrules, CLAUDE.md, CONSTITUTION.md) and active hooks, restate the Non-Goals, then wait for confirmation.
+
+## Non-Goals (never implement, never suggest)
+- No payments or billing of any kind (Stripe, PayPal, crypto)
+- No native iOS/Android apps
+
+## Stack (user-mandated; do not add servers, frameworks or build steps beyond it)
+- Python 3.12, FastAPI
+
+## Drift rule
+If the request or your own plan contains 'quick fix for now', 'while I'm in here', 'might as well', 'заодно', 'на всякий случай' — stop and ask: is this in scope? y/n.
+# --- end LUMIS scope guard ---

@@ -1,0 +1,2 @@
+# local evidence, not telemetry: keep the guard log out of commits
+guard.log

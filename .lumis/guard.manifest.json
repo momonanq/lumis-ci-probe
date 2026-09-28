@@ -1,0 +1,16 @@
+{
+  "generated": "2026-09-28T19:18:00+00:00",
+  "algorithm": "sha256/16",
+  "note": "Written at install and by LUMIS Amend. `scope_guard.py doctor` compares it; a mismatch means the guard was edited outside Amend. This records tampering, it cannot prevent it.",
+  "files": {
+    ".lumis/scope_guard.json": "09cfdec308ce7a11",
+    "scripts/scope_guard.py": "5d474100b4725584",
+    ".claude/settings.json": "ecbab41f6180ff53",
+    ".cursor/hooks.json": "72d7ec84208817e1",
+    ".codex/hooks.json": "d2d9f5197e27fae0",
+    ".windsurf/hooks.json": "be260919d0ab32ee",
+    ".github/hooks/lumis-scope-guard.json": "fb6fcacdf336cc6b",
+    "CONSTITUTION.md": "54243d325725ff25",
+    ".github/workflows/lumis-boundary-check.yml": "5f29a52f2975fecb"
+  }
+}
